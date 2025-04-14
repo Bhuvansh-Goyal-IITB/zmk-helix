@@ -1,4 +1,4 @@
-name: zmk-keyboard-runar
+name: zmk-keyboard-helixbg
 build:
   settings:
     board_root: .
