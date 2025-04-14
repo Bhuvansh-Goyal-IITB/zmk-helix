@@ -1,4 +1,4 @@
-#include "helix.dtsi"
+#include "runar.dtsi"
 
 &kscan0 {
 	input-gpios
