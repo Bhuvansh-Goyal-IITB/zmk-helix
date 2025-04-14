@@ -1,8 +1,4 @@
-#include "helixbg.dtsi"
-
-&default_transform {
-    col-offset = <17>;
-};
+#include "helixkb.dtsi"
 
 &kscan0 {
 	input-gpios
