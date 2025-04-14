@@ -1,4 +1,4 @@
-#include "runar.dtsi"
+#include "helixbg.dtsi"
 
 &default_transform {
     col-offset = <17>;
