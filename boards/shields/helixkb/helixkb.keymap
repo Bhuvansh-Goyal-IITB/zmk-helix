@@ -40,7 +40,7 @@
 
 &sk {
 	release-after-ms = <500>;
-}
+};
 
 / {
     keymap {
