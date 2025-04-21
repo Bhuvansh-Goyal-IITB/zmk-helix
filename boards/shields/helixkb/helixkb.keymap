@@ -27,6 +27,12 @@
 						layers = <0>;
             bindings = <&kp TAB>;
         };
+        combo_del {
+            timeout-ms = <50>;
+            key-positions = <7 8>;
+						layers = <0>;
+            bindings = <&kp DEL>;
+        };
         combo_bspc {
             timeout-ms = <50>;
             key-positions = <17 18>;
@@ -56,9 +62,9 @@
         };
 				nav {
 					bindings = <
-                &bt BT_SEL 0   &bt BT_SEL 1   &bt BT_SEL 2   &bt BT_SEL 3   &bt BT_SEL 4      &kp HOME      &kp END     &kp UP      &kp C_BRI_UP   &kp C_VOL_UP
-                &sk LGUI       &sk LALT       &sk LSHFT      &sk LCTRL      &sys_reset        &sys_reset    &kp LEFT    &kp DOWN    &kp RIGHT      &kp C_MUTE
-                &bt BT_CLR     &kp C_PREV     &kp C_PP       &kp C_NEXT     &bootloader       &bootloader   &kp PG_DN   &kp PG_UP   &kp C_BRI_DN   &kp C_VOL_DN
+                &bt BT_SEL 0   &bt BT_SEL 1   &bt BT_SEL 2   &bt BT_SEL 3   &bt BT_SEL 4      &trans        &kp PG_UP   &kp HOME    &kp C_BRI_UP   &kp C_VOL_UP
+                &sk LGUI       &sk LALT       &sk LSHFT      &sk LCTRL      &trans            &kp LEFT      &kp DOWN    &kp UP      &kp RIGHT      &kp C_MUTE
+                &bt BT_CLR     &kp C_PREV     &kp C_PP       &kp C_NEXT     &bootloader       &bootloader   &kp PG_DN   &kp END     &kp C_BRI_DN   &kp C_VOL_DN
 																					                   &trans         &trans            &trans        &trans
 					>;
 				};
